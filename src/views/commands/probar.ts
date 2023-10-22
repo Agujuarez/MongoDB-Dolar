@@ -1,4 +1,4 @@
-import { BolsaController } from "../../controllers/bolsaController";
+import { BolsaController } from "../../controllers/BolsaController";
 import { Moneda } from "../../models/Moneda";
 
 const prueba: Moneda = BolsaController.probarMoneda()

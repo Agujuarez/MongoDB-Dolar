@@ -13,4 +13,10 @@ export class BolsaController {
         const x: Record<string, any> = MonedaSerializer.toPlain(dolar)
         return x
     }
+
+    static guardarMoneda(nombre : string, simbolo : string): Moneda {
+        const moneda: Moneda = new Moneda(nombre, simbolo);
+        return moneda
+    }
+
 }
